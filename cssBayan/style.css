@@ -1,22 +1,24 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: palegoldenrod;
+    background-color: rgb(74, 143, 199);
 }
 
-
-.razmetka {
-    max-width: 500px;
-    margin: 20px auto;
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
+    max-width: 420gpx;
+    box-shadow: 0 0 12px 4px rgba(0,0,0.4);
+    margin: 20px auto;
     border: 1px solid #000000;
 }
 
-.image {
-    display: none;
-    padding: 10px 15px;
-
-}
 
 .text {
     color:  #000;
@@ -24,18 +26,10 @@ body {
     font-size: 16px;
     display: block;
     cursor: pointer;
-    padding: 10px 15px 1px;
-}
-text:hover {
-    
+    padding: 10px 15px ;
 }
 
-.button {
-    appearance: none;
-    width: 0;
-    height: 0;
-    position: absolute;
-}
-button:checked + image {
-    display: block;
+
+.image {
+    padding: 10px;
 }
