@@ -1,0 +1,41 @@
+body {
+    background-color: palegoldenrod;
+}
+
+
+.razmetka {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.item {
+    border: 1px solid #000000;
+}
+
+.image {
+    display: none;
+    padding: 10px 15px;
+
+}
+
+.text {
+    color:  #000;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px 1px;
+}
+text:hover {
+    
+}
+
+.button {
+    appearance: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+button:checked + image {
+    display: block;
+}
