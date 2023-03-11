@@ -4,27 +4,42 @@
 body {
     background-color: rgb(74, 143, 199);
 }
+summary {
+    list-style: none;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
 
 .wrapper {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .item {
-    max-width: 420gpx;
+    max-width: 420px;
     box-shadow: 0 0 12px 4px rgba(0,0,0.4);
     margin: 20px auto;
     border: 1px solid #000000;
+    
+}
+.accradion1 {
+    max-width: 420px;
+    box-shadow: 0 0 12px 4px rgba(0,0,0.4);
+    margin: 20px auto;
+    border: 1px solid #000000;
+    
 }
 
 
 .text {
+    background-color: #27212136 ;
     color:  #000;
     font-weight: bold;
     font-size: 16px;
-    display: block;
+    
     cursor: pointer;
     padding: 10px 15px ;
 }
@@ -33,3 +48,26 @@ body {
 .image {
     padding: 10px;
 }
+
+.tittle {
+    text-align: center;
+    width: 100%;
+    font-size: 28px; 
+    transition: .3s all;
+    outline: none;
+    
+    position: relative;
+}
+
+.tittle:hover {
+    background-color: #27212119 ;
+    
+}
+
+/* .tittle::after {
+    display: block;
+    content: "＋";
+    font-size: 16px;                        стрелки
+    position: absolute;
+    padding-left: 408px;
+    bottom: 50%; */
