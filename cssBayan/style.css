@@ -71,3 +71,23 @@ summary::-webkit-details-marker {
     position: absolute;
     padding-left: 408px;
     bottom: 50%; */
+
+    @media (max-width:1200) {
+        .wrapper{
+        max-width: 1180px;
+        }
+    }
+    @media (max-width:819) {
+        .wrapper{
+        max-width: 800px;
+        }
+    }
+    @media (max-width:319) {
+        .wrapper{
+        max-width: 315px;
+        }
+        .image {
+            max-width: 150px;
+            max-height: 200px;
+        }
+    }
