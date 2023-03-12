@@ -64,14 +64,6 @@ summary::-webkit-details-marker {
     
 }
 
-/* .tittle::after {
-    display: block;
-    content: "＋";
-    font-size: 16px;                        стрелки
-    position: absolute;
-    padding-left: 408px;
-    bottom: 50%; */
-
     @media (max-width:1200) {
         .wrapper{
         max-width: 1180px;
